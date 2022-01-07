@@ -5,20 +5,48 @@ body{
     background-color: white;
 }
 
+/*======================== LEFT COLUMN ===========================*/
+
 #left-column{
     width: 60%;
     float: left;
-    background-color: aqua;
+    background-color: rgb(57, 177, 177);
 }
+
+/*======================= RIGHT COLUMN ===========================*/
 
 #right-column img{
     width: 230px;
     margin-left: 140px;
     margin-top: 100px;
 }
+
+#right-column{
+    background-color: black;
+    height: 1400px;
+}
+
+/*========================== LOGO ===========================*/
+
 img#logo{
     position: fixed;
     width: 150px;
     bottom: 20px;
     right: 10px;
+}
+
+/*========================== BUTTON ===========================*/
+
+button{
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    color: rgb(240, 243, 248);
+    background-color: rgb(98, 105, 117);
+    width: 100px;
+    height: 50px;
+}
+
+button a{
+    text-decoration: none;
 }
